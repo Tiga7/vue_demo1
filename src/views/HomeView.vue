@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome "/>
+    <el-button>登录</el-button>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ export default {
   name: 'HomeView',
   components: {
     HelloWorld
-  }
+  },
+  
 }
 </script>
